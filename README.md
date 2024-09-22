@@ -82,3 +82,5 @@ There are a few aspects that make this challenge really challenging.
  customer. So you will need to find a way to deal with that
 - Another aspect that will make this a bit more challenging is finding solutions to store and get information with security in mind. You
  are free to apply anything, but modelling will have some challenges.  
+
+If you need more tips on how to start with this challenge, [you can find them here!](./challenge/tips/tips.md)
