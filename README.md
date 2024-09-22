@@ -65,18 +65,20 @@ should look like this:
 
 As with the sensors and the tasks aspect, **it is very important that customers cannot access configuration files from other customers**!
 
+## About the challenge itself
 
+This is quite the challenge. Just like in real life, there is a lot of information. I can imagine that this might feel overwhelming. But it 
+reality, it is not all that hard.  
 
-Some more use cases: 
+#### The main complexities in this challenge
 
-a sensor needs to get the next task. 
-a sensor needs to get be able to update status. 
+There are a few aspects that make this challenge really challenging. 
 
-
-Complexity of tasks: When a sensor picks up a task and starts doing it, the task itself also needs to be updated at the same time. 
-When deleting a task, you need to make sure the task hasn't started yet. 
-
-
-some tips on how to do this: 
-
-Administrators should be able to upload sensors with csv files containing up to 500 new sensors each day. 
+- The first thing is the sheer load of information. That is something you will encounter on the job as well, at least if you want to become
+ a real valuable asset. Being able to manage a huge load of information and create a solution for it, that is a big part of what we are 
+ learning in this About Coding Dojo. 
+- The second thing is security. Security doesn't have to be super complex. But in this challenge, it is important. Anything related to 
+ customers should be only for that customer. It cannot be that one customer can get their hands on any information intended for another 
+ customer. So you will need to find a way to deal with that
+- Another aspect that will make this a bit more challenging is finding solutions to store and get information with security in mind. You
+ are free to apply anything, but modelling will have some challenges.  
